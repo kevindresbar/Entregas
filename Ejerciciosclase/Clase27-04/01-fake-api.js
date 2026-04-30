@@ -7,7 +7,7 @@ async function getProductos() {
         const data = await response.json();
         console.log(`El total de los precios es ${total(data)}`);
         console.log("los datos son", data);
-stockxprice(data.data);
+        stockxprice(data.data);
         famous(data.data);
     }
     catch (error) {
@@ -31,13 +31,13 @@ function stockxprice(stock) {
     }
 
 }
-function famous(popu){
+function famous(popu) {
     for (let i = 0; i < popu.length; i++) {
         const enc = popu[i].rating.count;
         const cali = popu[i].rating.rate;
         const producto = popu[i].title;
 
-        if (cali>=4.7 & enc >= 100){
+        if (cali >= 4.7 & enc >= 100) {
             console.log(`${producto} es el producto popular con ${cali} de calificacion y ${enc} encuestas`)
         }
     }

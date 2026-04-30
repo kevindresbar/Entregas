@@ -1,0 +1,1 @@
+console.log(`el resultado de 5 + 7 es ${5 +7}` )

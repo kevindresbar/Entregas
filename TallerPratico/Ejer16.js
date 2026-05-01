@@ -8,5 +8,5 @@ else if (num1 < num2)
     console.log("el segundo valor es el mayor")
 }
 else{
-    console.log("el primer valor es el positivo ")
+    console.log("el primer valor es el mayor ")
 }

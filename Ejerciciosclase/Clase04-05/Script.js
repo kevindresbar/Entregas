@@ -1,5 +1,6 @@
 //Crear un algoritmo que capture los datos personales de 5 individuos, estos deberan ser: nombre, edad, genero. Una ves esten capturados en una lista, vamos a contar cuantos son hombres y cuantos son mujeres. Este ejercicio debe realizarse usando clases.
 let personas = [];
+ let  cantidad = prompt("cuentas personas quieres ingresar")
 class Person {
     nombre;
     edad;
@@ -10,7 +11,7 @@ class Person {
          this.genero =genero;
     }
 }
-for (let i = 1; i <= 2; i++) {
+for (let i = 1; i <= cantidad; i++) {
     const nombre = prompt(`Ingresa el nombre`);
     const edad = Number(prompt(`Ingresa la edad de ${nombre}`));
     const genero = prompt(`Ingresa el género de ${nombre}`);

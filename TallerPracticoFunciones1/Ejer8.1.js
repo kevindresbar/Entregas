@@ -6,7 +6,7 @@ function agregarPropiedad(objeto, clave, valor) {
   return objeto;
 }
 
-// 3. Ejecutamos la función pasando el objeto 'usuario'
+//ejecutamos la función pasando el objeto 'usuario'
 const objetoActualizado = agregarPropiedad(usuario, "edad", 25);
 
 

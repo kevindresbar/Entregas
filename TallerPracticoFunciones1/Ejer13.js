@@ -5,11 +5,11 @@ function eliminarDuplicados(array) {
 
    for (let i = 0; i < array.length; i++) {
     if (array[i]=== i) {
-      nw.push(array[i]);
+      nw.push(array[i])
     }
   }
 
   return nw;
 
 } 
-console.log(eliminarDuplicados(numero)); 
+console.log(eliminarDuplicados(numero))

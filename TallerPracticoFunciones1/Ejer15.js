@@ -10,18 +10,18 @@ function validarContraseña(contraseña){
         return false;
     }
             if (contraseña === contraseña.toLowerCase()) {
-        alert("La contraseña debe tener al menos una mayúscula.");
+        alert("La contraseña debe tener al menos una mayúscula.")
         return false;
     }
 
 
  if (contraseña === contraseña.toUpperCase()) {
-        alert("La contraseña debe tener al menos una minúscula.");
+        alert("La contraseña debe tener al menos una minúscula.")
         return false;
     }
 
-alert("¡Contraseña válida!");
-    return true;
+alert("¡Contraseña válida!")
+    return true
 }
 }
 validarContraseña(contra)

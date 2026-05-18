@@ -6,5 +6,5 @@ return {
     area : alto * ancho,
 perimetro: 2*(alto + ancho)}
 }
-let resultado = calcularRectangulo(base, altura);
+let resultado = calcularRectangulo(base, altura)
 console.log(resultado);

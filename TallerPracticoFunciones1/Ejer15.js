@@ -1,7 +1,7 @@
 let contra = prompt("Ingrese la contraseña ")
 
 function validarContraseña(contraseña){
-    
+
     for (let i = 0; i < contraseña.length; i++) {
 
 

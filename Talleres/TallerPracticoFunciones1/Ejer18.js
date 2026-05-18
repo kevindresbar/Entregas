@@ -1,4 +1,4 @@
-let vocales = prompt("Ingrese la palabra para saber las vocales ")
+let vocales = prompt("ingrese la palabra")
 
 function contarVocales(texto) {
     let letrasvocales = "aeiouAEIOU";
